@@ -1,0 +1,85 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+
+
+
+$body-bg:  #223C07 !default;
+
+body {
+  // green with noise
+  background: $body-bg $noise-bg;
+  font-family: Optima, serif;
+  line-height: 1.1;
+  text-align: center;
+}
+
+body header, body nav, #main, body footer {
+  margin: 0px auto; 
+}
+
+
+body header, body nav, body footer {
+  width: 810px;
+}
+
+body header {
+  background: url('/images/greenheader.jpg');
+}
+body header hgroup {
+  text-align: right;
+  font-family: Optima, serif;
+}
+
+body nav {
+ //background: url('/images/noise.png?1339624490'),-webkit-linear-gradient(#DDD79D,#D7D18E,#CEC673);
+//border-top: 1px solid #DDD79D;
+//  border-bottom: 1px solid  #CEC673;
+  font-family: Optima, serif;
+}
+
+#main {
+  text-align: left;
+  font-size: 11px;
+  width: 920px;
+  background-color: white;
+}
+
+article header {
+  background: none;
+}
+
+// make sidebar use the same backround as main
+aside.sidebar {
+  background: $main-bg $noise-bg;
+}
+
+// Don't want borders on sidebar images.
+aside.sidebar img {
+  @include shadow-box($border: #fff 0em solid);
+}
+
+article img {
+  border: none;
+  border-radius: 0em;
+}
+
+
+/* anchor links */
+a:link {
+  text-decoration: none;
+  color: #6d3026; }
+
+a:visited {
+  text-decoration: none;
+  color: #6d3026; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:active {
+  text-decoration: underline; }
+
+/* text input fonts */
+input, textarea {
+  font-family: Monaco, monospace; }

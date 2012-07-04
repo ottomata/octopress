@@ -4,7 +4,7 @@
 
 
 
-$body-bg:  #223C07 !default;
+$body-bg:  #577C2F !default;
 
 body {
   // green with noise
@@ -23,6 +23,7 @@ body header, body nav, body footer {
   width: 810px;
 }
 
+
 body header {
   background: url('/images/greenheader.jpg');
 }
@@ -32,9 +33,9 @@ body header hgroup {
 }
 
 body nav {
- //background: url('/images/noise.png?1339624490'),-webkit-linear-gradient(#DDD79D,#D7D18E,#CEC673);
-//border-top: 1px solid #DDD79D;
-//  border-bottom: 1px solid  #CEC673;
+  background: url('/images/noise.png?1339624490'),-webkit-linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+  border-top: 1px solid rgb(243,245,215);
+/*  border-bottom: 1px solid  #CEC673;*/
   font-family: Optima, serif;
 }
 
@@ -80,6 +81,29 @@ a:hover {
 a:active {
   text-decoration: underline; }
 
+body nav a:link {
+  text-decoration: none;
+  color: #6d3026; 
+}
+
+body nav a:visited {
+  text-decoration: none;
+  color: #6d3026; 
+}
+
+body nav a:hover {
+  text-decoration: underline; 
+  color: #6d3026;
+}
+
+body nav a:active {
+  text-decoration: underline; 
+  color: #6d3026;
+}
+
+
 /* text input fonts */
 input, textarea {
   font-family: Monaco, monospace; }
+  
+

@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="blog-index">
+  <aside id="left" class="sidebar">
+      {% if site.left_asides.size %}
+          {% include_array left_asides %}
+      {% endif %}
+  </aside>
   {% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}

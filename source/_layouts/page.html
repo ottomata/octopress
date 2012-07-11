@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<div>
+<div id="page">
+<aside id="left" class="sidebar">
+    {% if site.left_asides.size %}
+        {% include_array left_asides %}
+    {% endif %}
+</aside>
 <article role="article">
   {% if page.title %}
   <header>

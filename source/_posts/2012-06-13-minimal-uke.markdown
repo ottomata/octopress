@@ -3,7 +3,7 @@ layout: post
 title: "Minimal_Uke"
 date: 2012-06-13 19:50
 comments: true
-categories: 
+categories: blog
 share: false
 ---
 

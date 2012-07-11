@@ -77,24 +77,31 @@ article {
   width: 682px;
 }
 
-#main #page {
+#main #page, #main #post {
   padding-top: 0px;
 }
 
+
 /* anchor links */
-a:link {
+a:link, aside.sidebar a:link {
   text-decoration: none;
   color: #6d3026; }
 
-a:visited {
+a:visited, aside.sidebar a:visited {
   text-decoration: none;
   color: #6d3026; }
 
-a:hover {
-  text-decoration: underline; }
+a:hover, aside.sidebar a:hover {
+  text-decoration: underline; 
+  color: #6d3026;
+}
 
-a:active {
-  text-decoration: underline; }
+a:active, aside.sidebar a:active {
+  text-decoration: underline; 
+  color: #6d3026;
+}
+
+
 
 body nav a:link {
   text-decoration: none;

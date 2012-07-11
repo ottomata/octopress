@@ -53,6 +53,23 @@ task :generate do
   puts "## Generating Site with Jekyll"
   system "compass compile --css-dir #{source_dir}/stylesheets"
   system "jekyll"
+
+  cd "tech" do
+    system "rm -rf ./source/_includes && cp -a ../source/_includes ./source/"
+    system "jekyll"
+  end
+  
+  cd "public/tech" do
+    # symlink source directories to root public.  Some
+    # source directories can be and are symlinked.
+    # These cannot.
+    ["assets", "images", "javascripts", "stylesheets"].each do |directory|
+      system "ln -s ../#{directory} ./"
+    end
+  end
+  # cd "public" do
+  #   system "ln -s ../tech/public tech"
+  # end
 end
 
 desc "Watch the site and regenerate when it changes"

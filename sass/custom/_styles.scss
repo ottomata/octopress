@@ -33,7 +33,13 @@ body header hgroup {
 }
 
 body nav {
-  background: url('/images/noise.png?1339624490'),-webkit-linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+  background: url('/images/noise.png?1339624490'), no-repeat, -linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+  background: url('/images/noise.png?1339624490'), no-repeat, -webkit-linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+  background: url('/images/noise.png?1339624490'), no-repeat, -moz-linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+  background: url('/images/noise.png?1339624490'), no-repeat, -o-linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+  background: url('/images/noise.png?1339624490'), no-repeat, -ms-linear-gradient(bottom, rgb(243,245,215) 49%, rgb(245,245,223) 66%, rgb(245,244,231) 83%);
+
+
   border-top: 1px solid rgb(243,245,215);
 /*  border-bottom: 1px solid  #CEC673;*/
   font-family: Optima, serif;
@@ -73,12 +79,9 @@ aside.sidebar img {
 
 article img {
   border: none;
-  border-radius: 0em;
+  border-radius: 0;
 }
 
-/*#left.sidebar {
-  padding-right: 100px;
-}*/
 
 article header {
   width: 682px;
@@ -92,6 +95,12 @@ article {
   padding-top: 0px;
 }
 
+a {
+  -webkit-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  -moz-transition: none;
+}
 
 /* anchor links */
 a:link, aside.sidebar a:link {

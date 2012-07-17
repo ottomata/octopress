@@ -64,9 +64,16 @@ h1.entry-title {
 
 #content article header {
   padding-bottom: 0px;
+  padding-top: 0px;
 }
-#content article {
-  padding-top: 2em;
+
+#content .blog-index {
+  padding-bottom: 10px;
+}
+
+
+#content .blog-index article {
+  padding-top: 1em;
 }
 
 article header {
@@ -104,6 +111,7 @@ article, body div.pagination {
 
 #content div.pagination {
   background: none;
+  padding-bottom: 0px;
 }
 
 #content .blog-index article, #main #content article, .pagination {
@@ -145,6 +153,7 @@ article header span.meta {
 }
 p.post-next-previous {
   margin-bottom: 2.2em;
+  font-size: .95em;
 }
 
 p.post-next-previous a{

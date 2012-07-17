@@ -56,7 +56,7 @@ task :generate do
 
   cd "tech" do
     system "rm -rf ./source/_includes && cp -a ../source/_includes ./source/"
-    system "cp ../source/index.html ./source/"
+    system "cp ../source/index.html ./source/index.html"
     system "jekyll"
   end
   

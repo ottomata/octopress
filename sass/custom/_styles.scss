@@ -14,12 +14,12 @@ body {
   text-align: center;
 }
 
-body header, body nav, #main, body footer {
+body header, body nav, #main {
   margin: 0px auto; 
 }
 
 
-body header, body nav, body footer {
+body header, body nav {
   width: 810px;
 }
 
@@ -61,6 +61,7 @@ body nav {
 h1.entry-title {
   font-size: 2.2em;
 }
+
 #content article header {
   padding-bottom: 0px;
 }
@@ -72,9 +73,14 @@ article header {
   background: none;
 }
 
+article .entry-content {
+  padding-left: 8px;
+}
+
 // make sidebar use the same backround as main
 aside.sidebar {
   background: $main-bg $noise-bg;
+  height: 100%;
 }
 
 // Don't want borders on sidebar images.
@@ -89,16 +95,81 @@ article img {
 
 
 article header {
-  width: 682px;
+  width: 660px;
 }
-article {
-  margin-left: 62px;
-  width: 682px;
+article, body div.pagination {
+  margin-left: 140px;
+  width: 660px;
+}
+
+#content div.pagination {
+  background: none;
+}
+
+#content .blog-index article, #main #content article, .pagination {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#content {
+  border-right: none;
+  margin-right: 0px;
+  padding-right: 120px;
 }
 
 #main #page, #main #post {
   padding-top: 0px;
 }
+
+#left.sidebar {
+  width: 100px;
+}
+
+.recent_posts ul li {
+  font-size: 11px;
+  padding: 4px;
+}
+
+
+#content article h1 {
+  display: inline;
+}
+
+article header span.meta {
+  font-size: .9em;
+  color: #AAA;
+  margin: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  float: right;
+}
+p.post-next-previous {
+  margin-bottom: 2.2em;
+}
+
+p.post-next-previous a{
+  color: #AAA;
+}
+
+p.post-next-previous a:hover {
+  color: #6d3026;
+  text-decoration: none;
+}
+
+#blog-archives h1 {
+  padding-top: 8px;
+  font-family: Optima, serif;
+  font-weight: normal;
+}
+
+p.meta + .sharing {
+  padding-bottom: 1em;
+}
+
+.categories {
+  font-style: italic;
+}
+
 
 a {
   -webkit-transition: none;
@@ -116,9 +187,13 @@ a:visited, aside.sidebar a:visited {
   text-decoration: none;
   color: #6d3026; }
 
-a:hover, aside.sidebar a:hover, #content .blog-index article h1 a:hover {
+a:hover, aside.sidebar a:hover, #content .blog-index article h1 a:hover, #blog-archives h1 a:hover {
   text-decoration: underline; 
   color: #6d3026;
+}
+
+#content div.pagination a:hover {
+  color: #6d3026; 
 }
 
 a:active, aside.sidebar a:active {
@@ -150,7 +225,7 @@ body nav a:active {
 
 
 /* text input fonts */
-input, textarea {
+input, textarea, pre {
   font-family: Monaco, monospace; }
   
 

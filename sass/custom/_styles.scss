@@ -128,7 +128,7 @@ article header {
   padding-right: 120px;
 }
 
-#main #page, #main #post {
+#main #post {
   padding-top: 0px;
 }
 
@@ -172,6 +172,16 @@ p.post-next-previous a:hover {
   padding-top: 8px;
   font-family: Optima, serif;
   font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding-top: 8px;
+  font-family: Optima, serif;
+  font-weight: normal;
+}
+
+li {
+  margin-left: 2em;
 }
 
 #blog-archives time {

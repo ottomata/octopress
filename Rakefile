@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "otto@ottomata.org"
 ssh_port       = "22"
-document_root  = "/var/www/ottomata.org/public/"
+document_root  = "/var/www/ottomata/public/"
 rsync_delete   = true
 deploy_default = "rsync"
 
@@ -68,9 +68,7 @@ task :generate do
       system "ln -s ../#{directory} ./"
     end
   end
-  # cd "public" do
-  #   system "ln -s ../tech/public tech"
-  # end
+
 end
 
 desc "Watch the site and regenerate when it changes"
@@ -235,6 +233,11 @@ task :deploy do
 
   Rake::Task[:copydot].invoke(source_dir, public_dir)
   Rake::Task["#{deploy_default}"].execute
+  # Rake::Task[:symlink_static].execute
+end
+
+task :symlink_static do
+  system("ssh -p #{ssh_port} #{ssh_user} 'hostname && ln -vs $(dirname #{document_root})/{files,stuff} #{document_root}'")
 end
 
 desc "Generate website and deploy"

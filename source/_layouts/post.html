@@ -2,13 +2,12 @@
 layout: default
 single: true
 ---
-
+<aside id="left" class="sidebar">
+    {% if site.left_asides.size %}
+        {% include_array left_asides %}
+    {% endif %}
+</aside>
 <div id="post">
-  <aside id="left" class="sidebar">
-      {% if site.left_asides.size %}
-          {% include_array left_asides %}
-      {% endif %}
-  </aside>
   <article class="hentry" role="article">
     {% include post/next_previous.html %}
     {% include article.html %}

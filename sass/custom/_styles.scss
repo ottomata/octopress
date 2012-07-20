@@ -243,6 +243,39 @@ body nav a:active {
 
 /* text input fonts */
 input, textarea, pre {
-  font-family: Monaco, monospace; }
-  
+  font-family: Monaco, monospace; 
+  font-size: 10px;
+  width: 90%;
+  margin-left: 3%;
+  background-color: white;
+  border: none;
+  color: #222;
+}
+
+
+div.conversation ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 0px 0px 1px;
+  border-left: solid 5px #6d3026; }
+
+div.conversation ul li {
+  font-size: 12px;
+  padding: 4px 10px 4px 8px;
+  margin-bottom: 1px; }
+
+div.conversation ul li span.label {
+  font-weight: bold; }
+
+div.conversation ul li span.user_1 {
+  color: #6d3026; }
+
+div.conversation ul li span.user_2 {
+  color: #745b00; }
+
+div.conversation ul li.odd {
+  background-color: #f4f4f4; }
+
+div.conversation ul li.even {
+  background-color: #e8e8e8; }
 

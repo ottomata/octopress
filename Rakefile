@@ -237,7 +237,11 @@ task :deploy do
 end
 
 task :symlink_static do
-  system("ssh -p #{ssh_port} #{ssh_user} 'hostname && ln -vs $(dirname #{document_root})/{files,stuff} #{document_root}'")
+  system("ssh -p #{ssh_port} #{ssh_user} 'ln -vs $(dirname #{document_root})/{files,stuff} #{document_root}'")
+end
+
+task :deploy_config do
+  system("rsync -vze 'ssh -p #{ssh_port}' config/ottomata.org.nginx.conf #{ssh_user}:/etc/nginx/sites/ottomata.org && ssh -p #{ssh_port} #{ssh_user} 'sudo /etc/init.d/nginx reload'")
 end
 
 desc "Generate website and deploy"

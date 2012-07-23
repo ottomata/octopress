@@ -1,0 +1,13 @@
+
+---
+layout: post
+title: Birdies
+date: 2011-02-12 22:03
+comments: true
+categories: video timelapse
+---
+
+<iframe title="YouTube video player" width="624" height="498" src="http://www.youtube.com/embed/tG9xqRzindg?rel=0" frameborder="0" allowfullscreen></iframe>
+Stills taken in Bela Cvrka, Serbia.
+
+

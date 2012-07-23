@@ -1,0 +1,31 @@
+
+---
+layout: post
+title: Witten
+date: 2009-07-06 21:12
+comments: true
+categories: science
+---
+
+<div class="conversation">
+<ul>
+<li class="odd" ><span class="label user_1">Nick:</span>   Hey guess what I'm doing tomorrow night.</li>
+<li class="even"><span class="label user_2">Me:  </span>   What what?</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   I'm playing a match of tennis against <a href="http://en.wikipedia.org/wiki/Edward_Witten">Ed Witten.</a></li>
+<li class="even"><span class="label user_2">Me:  </span>   HA!</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   No shit, he just came up to me today and challenged me to a game.</li>
+<li class="even"><span class="label user_2">Me:  </span>   Wait, do you play tennis?</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   No, but I told him I do.  Actually I kinda do.  I played all the time as a kid. Like riding a bike, you don't forget, except sometimes you go over the handlbars.</li>
+<li class="even"><span class="label user_2">Me:  </span>   Is he really good or something?</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   No, I'm guessing he is appalling. I mean you think Einstein was good at tennis?</li>
+<li class="even"><span class="label user_2">Me:  </span>   How old is he?</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   Hmm, 57 or so.  I mean what if I kick his ass?  Like totally humiliate him.  Maybe it'll be the end of my career.  Historically, when I play sport with someone, I injure them pretty often.  What if I do the same here?</li>
+<li class="even"><span class="label user_2">Me:  </span>   Is he still doing research?</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   Yeah he's kickin ass.</li>
+<li class="even"><span class="label user_2">Me:  </span>   Then you better not hurt him, or you will disrupt scientific progress, let alone your own career.</li>
+<li class="odd" ><span class="label user_1">Nick:</span>   Imagine having to live with that!  The field of theoretical physics was doing fine until some Australian buffoon drilled Ed Witten in the head with a tennis ball, immediately lobotomizing him.</li>
+</ul>
+</div>
+
+
+

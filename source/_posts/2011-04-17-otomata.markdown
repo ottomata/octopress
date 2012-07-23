@@ -1,0 +1,17 @@
+
+---
+layout: post
+title: Otomata
+date: 2011-04-17 08:05
+comments: true
+categories: music
+---
+
+Apropos!  A <a href='http://en.wikipedia.org/wiki/Cellular_automaton'>cellular automata</a> sound generator from <a href='http://www.earslap.com/projectslab/otomata'>earslap.com</a>:
+
+<embed type="application/x-shockwave-flash" src="/flash/otomata.swf" height="407" width="610" quality="best"> 
+</embed>
+
+bq. Each alive cell has 4 states: Up, right, down, left. at each cycle, the cells move themselves in the direction of their internal states. If any cell encounters a wall, it triggers a pitched sound whose frequency is determined by the xy position of collision, and the cell reverses its direction. If a cell encounters another cell on its way, it turns itself clockwise.
+
+

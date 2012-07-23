@@ -1,0 +1,27 @@
+
+---
+layout: post
+title: b
+date: 2011-01-26 21:35
+comments: true
+categories: music
+---
+
+{% assign audio_title = "b" %}
+{% assign audio_source = "/files/media/audio/b.mp3" %}
+{% include custom/audio.html %}
+
+where will i b without b<br/>
+where will you b i won't know<br/>
+where we will b<br/>
+
+another b autiful<br/>
+b liever you b<br/>
+
+b kind too<br/>
+i need a b for you<br/>
+me in a b over we<br/>
+
+and b cause we live<br/>
+as b ings<br/>
+b will b forever with b<br/>

@@ -1,0 +1,35 @@
+
+---
+layout: post
+title: j
+date: 2011-06-12 23:45
+comments: true
+categories: music
+---
+
+{% assign audio_title = "J" %}
+{% assign audio_source = "/files/media/audio/j.mp3" %}
+{% include custom/audio.html %}
+
+I've got a thing or two to say<br/>
+about the letter J
+
+It's not the time to run away<br/>
+J is finally here to play
+
+J has hooked too many times<br/>
+all of those you call your kind
+
+He's tired of being always feared<br/>
+All he wants is a friend near
+
+Join his journey into joy<br/>
+He's changed into a normal boy 
+
+
+
+
+
+
+
+

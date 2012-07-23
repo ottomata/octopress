@@ -1,0 +1,14 @@
+
+---
+layout: post
+title: Worming
+date: 2012-02-12 00:11
+comments: true
+categories: video
+---
+
+<iframe width="625" height="352" src="http://www.youtube.com/embed/2p6OcfH3rS0" frameborder="0" allowfullscreen></iframe>
+
+Squirmy wormy.
+
+

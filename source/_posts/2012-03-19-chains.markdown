@@ -1,0 +1,14 @@
+
+---
+layout: post
+title: Chains
+date: 2012-03-19 16:56
+comments: true
+categories: photo
+---
+
+<a href="http://www.flickr.com/photos/ottomatona/6831899256/"><img src="http://farm8.staticflickr.com/7201/6831899256_2a2104f647_z.jpg" width="640" height="425" alt="Chains"></a>
+
+Taken in Arraial do Cabo, Brazil.
+
+

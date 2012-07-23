@@ -1,0 +1,26 @@
+
+---
+layout: post
+title: a
+date: 2011-01-28 00:27
+comments: true
+categories: music
+---
+{% assign audio_title = "a" %}
+{% assign audio_source = "/files/media/audio/a.mp3" %}
+{% include custom/audio.html %}
+
+a is not a a<br/>
+a is the<br/>
+glue between<br/>
+a pex and scene<br/>
+
+when you take a a<br/>
+men know they<br/>
+feel it then<br/>
+a bad a men<br/>
+
+a is your best friend<br/>
+a s a gain<br/>
+not a gain <br/>
+a s not in vein<br/>

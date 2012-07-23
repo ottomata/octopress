@@ -1,0 +1,20 @@
+
+---
+layout: post
+title: Decay
+date: 2011-10-21 23:04
+comments: true
+categories: video science
+---
+
+
+This is a <a href='http://en.wikipedia.org/wiki/Cloud_chamber'>Cloud Chamber</a>.
+
+Look at all those alpha decays!
+
+<iframe width="625" height="526" src="http://www.youtube.com/embed/Efgy1bV2aQo" frameborder="0" allowfullscreen></iframe>
+
+<br/><br/>
+<p><a href='/files/media/images/particle_tracks.jpg'><img src='/files/media/images/particle_tracks_small.jpg' /></a></p>
+
+

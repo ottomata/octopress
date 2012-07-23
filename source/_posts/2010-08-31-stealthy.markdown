@@ -1,0 +1,12 @@
+
+---
+layout: post
+title: Stealthy
+date: 2010-08-31 14:49
+comments: true
+categories: video
+---
+
+<iframe src="http://player.vimeo.com/video/14588901?title=0&byline=0&portrait=0&color=ffffff" width="625" height="469" frameborder="0"></iframe><p>Woke up to this inside of my tent.</p>
+
+

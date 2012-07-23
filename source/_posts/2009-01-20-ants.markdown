@@ -1,0 +1,14 @@
+
+---
+layout: post
+title: Ants
+date: 2009-01-20 09:03
+comments: true
+categories: video timelapse
+---
+
+<object type="application/x-shockwave-flash" width="624" height="415" data="http://www.flickr.com/apps/video/stewart.swf?v=66164" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&amp;photo_secret=7d94929dd7&amp;photo_id=3212398651"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=66164"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=66164" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=7d94929dd7&amp;photo_id=3212398651" height="415" width="624"></embed></object>
+
+
+
+

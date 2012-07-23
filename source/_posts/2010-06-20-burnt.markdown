@@ -1,0 +1,15 @@
+
+---
+layout: post
+title: Burnt
+date: 2010-06-20 15:40
+comments: true
+categories: music
+---
+
+{% assign audio_title = "Burnt" %}
+{% assign audio_source = "/files/media/audio/Burnt.mp3" %}
+{% include custom/audio.html %}
+Watch out, the levels are a little high.
+
+

@@ -9,6 +9,12 @@ layout: default
 </aside>
 <div id="page">
 <article role="article">
+  {% if page.title and page.no_header == false %}
+  <header>
+    <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}
+  </header>
+  {% endif %}
   {{ content }}
   {% unless page.footer == false %}
     <footer>

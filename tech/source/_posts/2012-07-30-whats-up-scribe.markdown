@@ -26,6 +26,6 @@ See also:
 
 * [Prebuilt .debs for Debian Squeeze](http://sandrotosi.blogspot.gr/2010/10/scribe-thrift-for-debian-squeeze.html)
 * [Building Scribe for Ubuntu](http://ycavatars.blogspot.com/2012/05/build-scribe-on-ubuntu-1204.html)
-* [Scribe fork](https://github.com/traviscrawford/scribe) with LZO and ZooKeeper node discovery.
+* [Scribe fork](https://github.com/traviscrawford/scribe) with LZO and ZooKeeper node discovery
 * [log4j scribe appender .deb packaging](https://github.com/wmf-analytics/log4j-scribe-appender)
 * [Thrift debian upstream packaging effort](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=648451)

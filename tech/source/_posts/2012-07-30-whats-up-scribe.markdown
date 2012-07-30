@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What's up Scribe?"
+title: "What&rsquo;s up Scribe?"
 date: 2012-07-30 11:59
 comments: true
 categories: 

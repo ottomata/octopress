@@ -12,11 +12,12 @@ I'm originally from Gloucester, Virginia.
 
 ## Links
 
-* [http://www.flickr.com/photos/OttomatonA](http://www.flickr.com/photos/OttomatonA)
-* [http://www.couchsurfing.org/people/otto](http://www.couchsurfing.com/people/otto)
-* [http://www.last.fm/user/OttomatonA](http://www.last.fm/user/OttomatonA)
-* [http://delicious.com/OttomatonA](http://delicious.com/OttomatonA)
-* [old ottomata website](http://old.ottomata.com)
+* [flickr](http://www.flickr.com/photos/OttomatonA)
+* [CouchSurfing](http://www.couchsurfing.com/people/otto)
+* [LinkedIn](http://www.linkedin.com/in/ottomata)
+* [last.fm](http://www.last.fm/user/OttomatonA)
+* [delicious](http://delicious.com/OttomatonA)
+* [old ottomata website](http://a.ottomata.org)
 
 ## Friends
 

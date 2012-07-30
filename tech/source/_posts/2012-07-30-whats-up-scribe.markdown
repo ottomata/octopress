@@ -3,7 +3,7 @@ layout: post
 title: "What&rsquo;s up Scribe?"
 date: 2012-07-30 11:59
 comments: true
-categories: 
+categories: logging bigdata analytics
 ---
 
 

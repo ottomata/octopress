@@ -41,7 +41,7 @@ _April 2012 - present_
 
 _December 2007 - February 2012_
 
-* Scaled site from 300K users and ~5 servers to 3M users and ~30 servers
+* Scaled site from 300K users and ~5 servers to 3M users and ~30 servers and 100M pageviews / month
 * Coordinated a small team of systems administrators
 * Read and commented on thousands of developer code commits
 * Configured and optimized distributed Sphinx search indexes and instances

@@ -11,7 +11,7 @@ footer: false
 
 [acotto@gmail.com](mailto:acotto@gmail.com)<br/>
 [http://ottomata.org](http://ottomata.org)<br/>
-[http://www.couchsurfing.org/people/otto](http://www.couchsurfing.com/people/otto)<br/>
+[https://github.com/ottomata](https://github.com/ottomata)<br/>
 
 ## Objective
 
@@ -36,6 +36,11 @@ PHP, bash, Ruby, Perl, C, Java, Puppet, Sphinx, Gearman, Scribe, memcached, MySQ
 ### Analytics Systems Engineer, Wikimedia Foundation
 
 _April 2012 - present_
+
+* Designed, Puppetized and deployed full stack Analytics data services platform.
+* Created analysis batch job prototypes using Hadoop, Pig, Oozie, Hue and Hive.
+* Refactored site specific several Puppet manifests into reusable Puppet modules.
+* Took over maintenance of legacy UDP webrequest logging service.
 
 ### Lead Systems Administrator, CouchSurfing.com
 

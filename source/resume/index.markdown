@@ -29,7 +29,7 @@ Software Engineering (as a project manager), Operating Systems, Networking, Web 
 
 ### Technologies
 
-PHP, bash, Ruby, Perl, C, Java, Puppet, Sphinx, Gearman, Scribe, memcached, MySQL, Linux (CentOS/RedHat,Ubuntu/Debian), HTML/CSS, Flash/Actionscript
+PHP, bash, Ruby, Python, C, Java, Puppet, Sphinx, Gearman, Scribe, Apache Hadoop (Pig, Oozie, etc.), Apache Kafka, memcached, MySQL, Linux (CentOS/RedHat,Ubuntu/Debian), HTML/CSS, git, svn, Scratch
 
 ## Experience
 

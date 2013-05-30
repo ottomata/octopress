@@ -25,16 +25,21 @@ Experience:
 
 Analytics Systems Engineer, Wikimedia Foundation
 April 2012 - present
-  - Designed, Puppetized and deployed full stack Analytics data services platform.
-  - Created analysis batch job prototypes using Hadoop, Pig, Oozie, Hue and Hive.
-  - Refactored site specific several Puppet manifests into reusable Puppet modules.
-  - Took over maintenance of legacy UDP webrequest logging service.
+  - Designed, Puppetized and deployed full stack Analytics (Hadoop, Storm, Kafka) data services platform
+  - Created analysis batch job prototypes using Hadoop, Pig, Oozie, Hue and Hive
+  - Refactored site specific several Puppet manifests into reusable Puppet modules
+  - Took over maintenance of legacy UDP based webrequest logging service
+  - Created Debian packages for Python, Java and C libraries
+  - Supported Data Analysts in their never ending search for knowledge
 
 Lead Systems Administrator, CouchSurfing.com
 December 2007 - February 2012
   - Scaled site from 300K users and ~5 servers to 3M users and ~30 servers and 100M pageviews / month
-  - Coordinated a small team of systems administrators
+  - Coordinated a team of systems administrators
   - Read and commented on thousands of developer code commits
+  - Re-architected monolithic database into a scalable sharded model
+  - Managed creation and addition of MySQL replication slaves using LVM snapshots
+  - Performed successful MySQL upgrades and master migrations with zero downtime
   - Configured and optimized distributed Sphinx search indexes and instances
   - Designed and built a large scale batch campaign email and internal messaging system using Gearman
   - Coded custom database schema migration system
@@ -44,8 +49,6 @@ December 2007 - February 2012
   - Configured and deployed HTTP load balancers, web, SMTP, and database servers
   - Installed wiki for tech information and documented much of the backend configuration
   - Created PHP/Ajax web interface for approving and deploying subversion code commits
-  - Re-architected monolithic database into a scalable sharded model
-  - Managed creation and addition of MySQL replication slaves using LVM snapshots
   - Wrote custom MySQL backup system to allow for point in time restores of all databases
   - Modified custom email spool system so that it will scale to any number of (postfix) SMTP servers
 
@@ -83,3 +86,18 @@ March 2002 - May 2003
 
 Activities and Interests:
   Classical guitar, modern physics, photography, bike polo, traveling, potlucks, contra dancing.
+
+Public Code Samples:
+  - GitHub Public Activity                         https://github.com/ottomata?tab=activity
+  - puppet-cdh4 (Hadoop Ecosystem) v0.2            https://github.com/wikimedia/operations-puppet-cdh4
+  - puppet-cdh4 (Hadoop Ecosystem) v0.1            https://github.com/wikimedia/puppet-cdh4
+  - puppet-storm                                   https://github.com/wikimedia/puppet-storm
+  - puppet-kafka v0.1                              https://github.com/wikimedia/puppet-kafka
+  - puppet miscellaneous                           https://github.com/ottomata/puppet-misc
+  - CouchSurfing PHP CSMail class (CouchSurfing)   https://github.com/ottomata/cs_mail
+  - MySQL PHP Migrations (CouchSurfing)            https://github.com/ottomata/cs_migrations
+  - log4j Scribe Appender                          https://github.com/wikimedia-incubator/log4j-scribe-appender
+  - Flume UDP Source                               https://issues.apache.org/jira/browse/FLUME-1838
+  - libcidr debianization                          https://github.com/wikimedia/analytics-libcidr/tree/master/debian
+  - libanon debianization                          https://github.com/wikimedia/analytics-libanon/tree/debian-0.2.0-1precise-wikimedia/debian
+  - python-jsonschema debianization                https://github.com/wikimedia/operations-debs-python-jsonschema/tree/debian/wikimedia/debian

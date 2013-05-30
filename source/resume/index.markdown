@@ -125,11 +125,11 @@ potlucks, making things, contra dancing.
 - [puppet miscellaneous](https://github.com/ottomata/puppet-misc)
 - [PHP CSMail class (CouchSurfing)](https://github.com/ottomata/cs_mail)
 - [MySQL PHP Migrations (CouchSurfing)](https://github.com/ottomata/cs_migrations)
-- [log4j Scribe Appender](https://github.com/wikimedia-incubator/log4j-scribe-appender)
 - [Flume UDP Source](https://issues.apache.org/jira/browse/FLUME-1838)
 - [libcidr debianization](https://github.com/wikimedia/analytics-libcidr/tree/master/debian)
 - [libanon debianization](https://github.com/wikimedia/analytics-libanon/tree/debian-0.2.0-1precise-wikimedia/debian)
 - [python-jsonschema debianization](https://github.com/wikimedia/operations-debs-python-jsonschema/tree/debian/wikimedia/debian)
+- [log4j Scribe Appender debianization](https://github.com/wikimedia-incubator/log4j-scribe-appender)
 
 <div style="padding-top:20px; text-align:center;">
   <a href="Andrew_Otto_Resume.pdf">PDF Version</a> | <a href="Andrew_Otto_Resume.txt">Text Version</a>

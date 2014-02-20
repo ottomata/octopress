@@ -121,6 +121,7 @@ potlucks, making things, contra dancing.
 - [puppet-cdh4 (Hadoop Ecosystem)](https://github.com/wikimedia/puppet-cdh4)
 - [puppet-kafka](https://github.com/wikimedia/puppet-kafka)
 - [puppet-storm](https://github.com/wikimedia/puppet-storm)
+- [puppet-jmxtrans](https://github.com/wikimedia/puppet-jmxtrans)
 - [PHP CSMail class (CouchSurfing)](https://github.com/ottomata/cs_mail)
 - [MySQL PHP Migrations (CouchSurfing)](https://github.com/ottomata/cs_migrations)
 - [Flume UDP Source](https://issues.apache.org/jira/browse/FLUME-1838)

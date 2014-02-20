@@ -90,9 +90,8 @@ Activities and Interests:
 Public Code Samples:
   - GitHub Public Activity                         https://github.com/ottomata?tab=activity
   - puppet-cdh4 (Hadoop Ecosystem)                 https://github.com/wikimedia/puppet-cdh4
+  - puppet-kafka                                   https://github.com/wikimedia/puppet-kafka
   - puppet-storm                                   https://github.com/wikimedia/puppet-storm
-  - puppet-kafka v0.1                              https://github.com/wikimedia/puppet-kafka
-  - puppet miscellaneous                           https://github.com/ottomata/puppet-misc
   - CouchSurfing PHP CSMail class (CouchSurfing)   https://github.com/ottomata/cs_mail
   - MySQL PHP Migrations (CouchSurfing)            https://github.com/ottomata/cs_migrations
   - Flume UDP Source                               https://issues.apache.org/jira/browse/FLUME-1838

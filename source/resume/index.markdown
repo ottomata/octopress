@@ -118,18 +118,12 @@ potlucks, making things, contra dancing.
 ## Public Code Samples
 
 - [GitHub Public Activity](https://github.com/ottomata?tab=activity)
-- [puppet-cdh4 (Hadoop Ecosystem) v0.2](https://github.com/wikimedia/operations-puppet-cdh4)
-- [puppet-cdh4 (Hadoop Ecosystem) v0.1](https://github.com/wikimedia/puppet-cdh4)
+- [puppet-cdh4 (Hadoop Ecosystem)](https://github.com/wikimedia/puppet-cdh4)
+- [puppet-kafka](https://github.com/wikimedia/puppet-kafka)
 - [puppet-storm](https://github.com/wikimedia/puppet-storm)
-- [puppet-kafka v0.1](https://github.com/wikimedia/puppet-kafka)
-- [puppet miscellaneous](https://github.com/ottomata/puppet-misc)
 - [PHP CSMail class (CouchSurfing)](https://github.com/ottomata/cs_mail)
 - [MySQL PHP Migrations (CouchSurfing)](https://github.com/ottomata/cs_migrations)
 - [Flume UDP Source](https://issues.apache.org/jira/browse/FLUME-1838)
-- [libcidr debianization](https://github.com/wikimedia/analytics-libcidr/tree/master/debian)
-- [libanon debianization](https://github.com/wikimedia/analytics-libanon/tree/debian-0.2.0-1precise-wikimedia/debian)
-- [python-jsonschema debianization](https://github.com/wikimedia/operations-debs-python-jsonschema/tree/debian/wikimedia/debian)
-- [log4j Scribe Appender debianization](https://github.com/wikimedia-incubator/log4j-scribe-appender)
 
 <div style="padding-top:20px; text-align:center;">
   <a href="Andrew_Otto_Resume.pdf">PDF Version</a> | <a href="Andrew_Otto_Resume.txt">Text Version</a>

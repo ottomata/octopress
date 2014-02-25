@@ -18,6 +18,7 @@ I'm originally from Gloucester, Virginia.
 * [last.fm](http://www.last.fm/user/OttomatonA)
 * [delicious](http://delicious.com/OttomatonA)
 * [old ottomata website](http://a.ottomata.org)
+* [OpenPGP public key](/ottomata.asc.txt)
 
 ## Friends
 

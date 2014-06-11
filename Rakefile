@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "otto@ottomata.org"
+ssh_user       = "otto@198.143.2.230"
 ssh_port       = "22"
-document_root  = "/var/www/ottomata/public/"
+document_root  = "/srv/www/ottomata.org/public/"
 rsync_delete   = true
 deploy_default = "rsync"
 

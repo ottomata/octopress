@@ -13,7 +13,8 @@ _Wikimedia's new public service that exposes live streams of Wikimedia projects 
 ![Photo by Mikey Tnasuttimonkol, CC BY-SA 4.0.](https://wikimediablog.files.wordpress.com/2017/03/data_waltz_exhibit_in_la_2.jpg?w=580&h=386)
 
 We are happy to announce [EventStreams](https://wikitech.wikimedia.org/wiki/EventStreams), a new public service that exposes live streams of Wikimedia events.  And we don’t mean the next big calendar event like the Winter Olympics or Wikimania.  Here, an ‘event’ is defined to be a small piece of data usually representing a state change. An edit of a Wikipedia page that adds some new information is an ‘event’, and could be described like the following:
-```
+
+```json
 {
     "event-type": "edit",
     "page": "Special Olympics",
@@ -30,10 +31,11 @@ While composing this blog post, we sought visualizations that use EventStreams, 
 
 [Sacha Saint-Leger](https://github.com/sachaysl) sent us this [display of real-time edits on a rotating globe](https://sachaysl.github.io/wikimedia-challenge/), showing off where they are made.
 
-!(https://wikimediablog.files.wordpress.com/2017/03/eventstreamsglobe.gif?w=960&h=1030)
+![EventStreams globe](https://wikimediablog.files.wordpress.com/2017/03/eventstreamsglobe.gif?w=960&h=1030)
 
 [Ethan Jewett](http://github.com/esjewett) created a really nice [continuously updating chart](https://esjewett.github.io/wm-eventsource-demo/) of edit statistics.
-!(https://wikimediablog.files.wordpress.com/2017/03/eventstreamseditcharts.gif?w=960&h=544)
+
+![EventStreams charts](https://wikimediablog.files.wordpress.com/2017/03/eventstreamseditcharts.gif?w=960&h=544)
 
 ## A little background—why EventStreams?
 

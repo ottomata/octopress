@@ -8,6 +8,11 @@ categories: kafka hadoop wikimedia json camus
 
 _This was originally published on [Wikimedia's blog](https://blog.wikimedia.org/2017/01/13/json-hadoop-kafka/)_
 
+_Our three key players are Hadoop, the defacto distributed batch data processing platform; JSON, a ubiquitous data format; and Kafka, which is becoming the system of choice for transporting streams of data. However, much of the data that flows into Kafka is in JSON format, and there isn’t good community support around importing JSON data from Kafka into Hadoop. This article summarizes some common technologies, and describes the approach used at Wikimedia to import our stream of incoming HTTP requests, which can peak at around 200,000 per second._
+
+
+![Photo by Eric Kilby, CC BY-SA 2.0.](https://wikimediablog.files.wordpress.com/2017/01/5946973315_4a1fe2a44a_o.jpg?w=580&#038;h=684")
+
 ## JSON is…not binary
 
 JSON is awesome.  It is both machine and human readable.  It is concise (at least compared to XML), and is even more concise when represented as YAML. It is well supported in many programming languages.  JSON is text, and works with standard CLI tools.
